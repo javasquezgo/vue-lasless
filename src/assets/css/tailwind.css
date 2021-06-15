@@ -10,4 +10,19 @@
   box-shadow: 0px 39px 21px -14px rgba(245, 56, 56, 0.46);
 }
 
+.header-shadow {
+  box-shadow: 0px 30px 13px -8px rgba(13, 16, 37, 0.6);
+}
+
+.features-card {
+  width: 60%;
+  min-width: 288px;
+  max-width: 330px;
+  height: auto;
+}
+
+.feature-hover {
+  @apply hover:border-las-orange;
+}
+
 @tailwind utilities;

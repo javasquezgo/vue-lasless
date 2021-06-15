@@ -1,15 +1,17 @@
 <template>
   <main>
     <px-header />
+    <px-fetaures />
   </main>
 </template>
 
 <script>
 import PxHeader from "@/components/PxHeader.vue";
+import PxFetaures from "@/components/PxFetaures.vue";
 
 export default {
   name: "App",
-  components: { PxHeader },
+  components: { PxHeader, PxFetaures },
 };
 </script>
 
