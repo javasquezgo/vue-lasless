@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-20 mb-40 bg-las-background">
+  <section class="pb-20 mt-20 bg-las-background">
     <div class="w-11/12 mx-auto text-center">
       <h2 class="w-auto pt-20 mb-5 text-4xl font-medium leading-10">
         Choose Your Plan
@@ -10,7 +10,7 @@
         cheerfully.
       </p>
 
-      <div class="justify-between mx-auto md:flex">
+      <div class="justify-between mx-auto mb-5 md:flex">
         <div
           class="flex flex-col items-center pb-5 mx-auto border-2  feature-hover border-las-border features-card border-las-gray rounded-xl"
         >
@@ -48,7 +48,7 @@
         </div>
 
         <div
-          class="flex flex-col items-center pb-5 mx-auto my-5 border-2  feature-hover md:my-0 border-las-border features-card border-las-gray rounded-xl"
+          class="flex flex-col items-center mx-auto my-5 border-2  feature-hover md:my-0 border-las-border features-card border-las-gray rounded-xl"
         >
           <img
             class="mt-20 mb-7"
